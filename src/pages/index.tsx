@@ -6,10 +6,6 @@ export default function Home() {
     
     <Head key={1}>
        <title> Inicio | ig.news </title>
-    </Head>,
-    
-    <h1 key={2}>
-     Hello world
-    </h1>
+    </Head>
   ]
 }
