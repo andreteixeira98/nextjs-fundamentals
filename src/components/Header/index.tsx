@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
+import { SignInButton } from '../SignInButton';
 
 function Header(){
 
@@ -18,6 +19,8 @@ function Header(){
         <a className={styles.isActive}>Home</a> &nbsp;
         <a>Posts</a>
       </nav>
+
+      <SignInButton />
       </div>
     </header>
   )
